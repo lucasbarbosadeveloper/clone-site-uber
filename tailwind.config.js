@@ -5,6 +5,10 @@ module.exports = {
     extend: {
       colors:{
         secondary: "#D1D5DB"     
+      },
+      backgroundImage: {
+        'city': "url('/assets/bg-city.png')",
+        'footer-texture': "url('/img/footer-texture.png')",
       }
     },
   },
