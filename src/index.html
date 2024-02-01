@@ -7,18 +7,19 @@
     <title>Uber</title>
 </head>
 <body>
-    <header class="bg-black text-white flex items-center justify-between px-5 py-6 w-full">
-        <div>
+    <header class="bg-black text-white flex items-center justify-between px-5 py-6 lg:px-32 w-full">
+        <div class="flex items-center justify-center gap-10">
             <img class="w-16" src="../assets/uberlogo.png" alt="logo uber">
+
+            <nav class="hidden lg:block">
+                <ul class="flex gap-10">
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Safeety</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </nav>
         </div>
 
-        <nav class="hidden">
-            <ul>
-                <li><a href="#">Company</a></li>
-                <li><a href="#">Safeety</a></li>
-                <li><a href="#">Help</a></li>
-            </ul>
-        </nav>
 
         <div class="flex gap-3 font-semibold text-sm">
             <button>Login</button>
