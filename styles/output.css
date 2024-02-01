@@ -820,6 +820,34 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[u\] {
+  background-color: u;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-left {
+  background-position: left;
+}
+
+.bg-right-bottom {
+  background-position: right bottom;
+}
+
+.bg-bottom {
+  background-position: bottom;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .p-5 {
   padding: 1.25rem;
 }
